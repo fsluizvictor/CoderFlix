@@ -4,7 +4,7 @@ import error404 from '../../assets/error404.png'
 
 function Error() {
     return (
-        <div>
+        <div >
             <img src={error404} alt="Error 404" />
         </div>
     )
