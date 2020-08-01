@@ -1,76 +1,70 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
+import FormField from '../../../components/FormField'
 
 function CadastroCategoria() {
 
   const initialsValues = {
-    name: 'Categoria Inicial',
-    description: 'Descrição Inicial',
-    color: '#000'
+    name: '',
+    description: '',
+    color: ''
   }
 
-  const [category, setCategory] = useState(['Teste'])
-  const [value, setValue] = useState(initialsValues)
+  const [category, setCategory] = useState([])
+  const [values, setValues] = useState(initialsValues)
+
+  function setValue(key, value) {
+    setValues({
+      ...values,
+      [key]: value,
+    })
+  }
+
+  function handleChange(element) {
+    setValue(
+      element.target.getAttribute('name'),
+      element.target.value
+    )
+  }
 
   return (
     <PageDefault>
-      <h1>Cadastro de Category: {value.nome}</h1>
+      <h1>Cadastro de Categoria: {values.name}</h1>
 
-      <form onSubmit={function handleSubmit() {
+      <form onSubmit={function handleSubmit(element) {
+        element.preventDefault()
         setCategory([
           ...category,
-          value
+          values
         ])
+
+        setValues(initialsValues)
       }}>
 
-        <div>
-          <label>
-            Nome da Category:
-          <input
-              type="text"
-              value={value.name}
-              onChange={() => {
-                setCategory([
-                  ...category,
-                  value
-                ])
-              }}
-            />
-          </label>
-        </div>
+        <FormField
+          label="Nome da Categoria"
+          type="text"
+          name="name"
+          value={values.name}
+          onChange={handleChange}
+        />
 
-        <div>
-          <label>
-            Descrição:
-            <textarea
-              type="text"
-              value={value.description}
-              onChange={() => {
-                setCategory([
-                  ...category,
-                  value
-                ])
-              }}
-            />
-          </label>
-        </div>
+        <FormField
+          label="Descrição"
+          type="submit"
+          name="description"
+          value={values.description}
+          onChange={handleChange}
+        />
 
-        <div>
-          <label>
-            Cor:
-            <input
-              type="color"
-              value={value.color}
-              onChange={() => {
-                setCategory([
-                  ...category,
-                  value
-                ])
-              }}
-            />
-          </label>
-        </div>
+        <FormField
+          label="Cor"
+          type="color"
+          name="color"
+          value={values.color}
+          onChange={handleChange}
+        />
 
         <button>
           Cadastrar
@@ -81,7 +75,7 @@ function CadastroCategoria() {
         {category.map((category, indice) => {
           return (
             <li key={`${category}${indice}`} >
-              {category}
+              {category.name}
             </li>
           )
         })}
