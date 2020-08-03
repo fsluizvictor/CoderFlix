@@ -59,15 +59,11 @@ transition: border-color .3s;
 &:focus:not([type='color']) + ${Label.Text} {
   transform: scale(.6) translateY(-10px);
 }
-${({ value }) => {
-    const hasValue = value.length > 0;
-    return hasValue && css`
-      &:not([type='color']) + ${Label.Text} {
-        transform: scale(.6) translateY(-10px);
-      }
-    `;
+${({ hasValue }) => hasValue && css`
+  &:not([type="color"]) + span{
+    transform: scale(.6) translateY(-10px);
   }
-}
+`}
 `;
 
 function FormField({
@@ -75,6 +71,7 @@ function FormField({
 }) {
   const fieldId = `id_${name}`;
   const tag = type === 'textarea' ? 'textarea' : 'input';
+  const hasValue = Boolean(value.length);
 
   return (
     <FormFieldWrapper>
@@ -87,6 +84,7 @@ function FormField({
           type={type}
           value={value}
           name={name}
+          hasValue={hasValue}
           onChange={onChange}
         />
         <Label.Text>
