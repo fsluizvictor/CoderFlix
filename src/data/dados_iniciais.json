@@ -1,128 +1,137 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
-      "link": "https://www.alura.com.br/formacao-front-end",
+      "titulo": "Algoritmo e Estrutura de Dados",
+      "link": "https://www.youtube.com/watch?v=O_Cc-Xzc0zM",
       "cor": "#6BD1FF",
-      "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
-      },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "Oque são e para que server os algoritimos e estruturas de dados? #AED",
+          "url": "https://www.youtube.com/watch?v=O_Cc-Xzc0zM"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Estrutura de Dados - Aula 1 - Apresentação da disciplina",
+          "url": "https://www.youtube.com/watch?v=y0B-vQI6Tiw&list=PLxI8Can9yAHf8k8LrUePyj0y3lLpigGcl&index=1"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "Alura: Curso de Estrutura de Dados - Aula 1",
+          "url": "https://www.youtube.com/watch?v=LAlqTb70eZ4"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Estrutura de Dados - Aula 2 - Criação de uma primeira estrutura",
+          "url": "https://www.youtube.com/watch?v=x2DwllnUZDg&list=PLxI8Can9yAHf8k8LrUePyj0y3lLpigGcl&index=2"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "Estrutura de dados que os robôs irão utilizar (data structures)",
+          "url": "https://www.youtube.com/watch?v=ypC_sHGjr1g"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "Programador que não sabe Algoritmo | BigO | Estrutura de Dados | Complexidade",
+          "url": "https://www.youtube.com/watch?v=l8LgRx1Lqs0"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "[ED] Aula 01 - TAD (Tipo Abstrato de Dado)",
+          "url": "https://www.youtube.com/watch?v=bryesHll0vY&list=PL8iN9FQ7_jt6H5m4Gm0H89sybzR9yaaka"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Estrutura de Dados e Algoritmos com Java #01: Introdução",
+          "url": "https://www.youtube.com/watch?v=N3K8PjFOhy4"
         }        
       ]
     },
     {
-      "titulo": "Back End",
+      "titulo": "Complexidade de Algoritmos",
       "cor": "#00C86F",
-      "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
-      },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "COMPLEXIDADE de ALGORITMOS I - Noção INTUITIVA",
+          "url": "https://www.youtube.com/watch?v=KVlGx-9CuO4"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "Dica rápida de como saber a complexidade de um algoritmo",
+          "url": "https://www.youtube.com/watch?v=f--A1FK6KK4"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "Big O, Omega e Theta: Entendendo Complexidade de Algoritmos",
+          "url": "https://www.youtube.com/watch?v=mpQg_Qeing0"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "titulo": "[ED] Aula 99 - Análise de Algoritmos",
+          "url": "https://www.youtube.com/watch?v=iZK5WwJFIPE&list=PL8iN9FQ7_jt6buW7SBD3yzjIp8NnJYrZl"
         }, 
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Projeto e Análise de Algoritmos - Apresentação da disciplina",
+          "url": "https://www.youtube.com/watch?v=kKgWNDAYJOw&list=PLxI8Can9yAHdNN5fpKWRF8bbLG-2P-0LW"
         }
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "Lista, Pilha e Fila",
       "cor": "#9cd33b",
-      "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
-      },
+      
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "Estruturas de dados dinâmicas - Pilhas, Filas e Listas",
+          "url": "https://www.youtube.com/watch?v=nD5Vb34mMrc"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "Estruturas de Dados - O que são Pilhas",
+          "url": "https://www.youtube.com/watch?v=EocahNeZcn0"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "Explicando Estrutura de Dados - Pilha",
+          "url": "https://www.youtube.com/watch?v=2V91Re1czwA"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": " Fila: Definição",
+          "url": "hhttps://www.youtube.com/watch?v=aEfOzz_KXl8"
+        },
+        {
+          "titulo": "Listas Encadeadas - Entendendo o Conceito",
+          "url": "https://www.youtube.com/watch?v=bqwIoNiHAuQ"
+        },
+        {
+          "titulo": "Filas | Estruturas de Dados #8",
+          "url": "https://www.youtube.com/watch?v=tiee9D54tE0"
         }
       ]
     },
     {
-      "titulo": "Filmes",
+      "titulo": "Tabelas Hash e Algoritmos de Ordenação",
       "cor": "orange",
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "titulo": "Tabelas Hash",
+          "url": "https://www.youtube.com/watch?v=M4DGQPF2Oxo"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "Tabela Hash - Definição",
+          "url": "https://www.youtube.com/watch?v=njkANXEMHTY"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "titulo": "VISUALIZANDO ALGORITMOS DE ORDENAÇÃO!",
+          "url": "https://www.youtube.com/watch?v=rQTQF46o16k"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+          "titulo": "SELECTION SORT | Algoritmos #3",
+          "url": "https://www.youtube.com/watch?v=ZT_dT8yn48s&list=PL5TJqBvpXQv4l7nH-08fMfyl7aDFNW_fC"
+        },
+        {
+          "titulo": "BUBBLE SORT | Algoritmos #4",
+          "url": "https://www.youtube.com/watch?v=GiNPe_678Ms&list=PL5TJqBvpXQv4l7nH-08fMfyl7aDFNW_fC&index=2"
+        },
+        {
+          "titulo": "INSERTION SORT | Algoritmos #5",
+          "url": "https://www.youtube.com/watch?v=S5no2qT8_xg&list=PL5TJqBvpXQv4l7nH-08fMfyl7aDFNW_fC&index=3"
+        },
+        {
+          "titulo": "COMPLEXIDADE de Selection, Bubble, Insertion Sort | Algoritmos #6",
+          "url": "https://www.youtube.com/watch?v=v50wSxxlit0&list=PL5TJqBvpXQv4l7nH-08fMfyl7aDFNW_fC&index=4"
         }
       ]
     },
     {
-      "titulo": "Games",
+      "titulo": "Árvores",
       "cor": "red",
       "link_extra": {
         "text": "Formação de Jogos na Alura",
@@ -152,7 +161,7 @@
       ]
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
+      "titulo": "Grafos",
       "cor": "#6b5be2",
       "link_extra": {
         "text": "Curso sobre aprendizado na Alura",
