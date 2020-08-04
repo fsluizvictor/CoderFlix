@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import useForm from '../../../hooks/useForm'
 
 function CadastroCategoria() {
   const initialsValues = {
@@ -11,22 +12,10 @@ function CadastroCategoria() {
     color: '',
   };
 
+  const { handleChange, values, clearForm } = useForm(initialsValues)
+
   const [category, setCategory] = useState([]);
-  const [values, setValues] = useState(initialsValues);
 
-  function setValue(key, value) {
-    setValues({
-      ...values,
-      [key]: value,
-    });
-  }
-
-  function handleChange(element) {
-    setValue(
-      element.target.getAttribute('name'),
-      element.target.value,
-    );
-  }
 
   useEffect(() => {
     const URL = window.location.hostname.includes('https://coderflixdev.herokuapp.com/categorias')
@@ -55,7 +44,7 @@ function CadastroCategoria() {
           values,
         ]);
 
-        setValues(initialsValues);
+        clearForm();
       }}
       >
 

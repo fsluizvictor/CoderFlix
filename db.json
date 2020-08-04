@@ -2,20 +2,251 @@
   "categorias": [
     {
       "id": 1,
-      "name": "Front End",
-      "color": "#6BD1FF",
-      "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
-      }
+      "name": "Algoritmo e Estrutura de Dados",
+      "color": "#6BD1FF"
+    },
+    {
+      "id": 2,
+      "name": "Complexidade de Algoritmos",
+      "color": "#00C86F"
+    },
+    {
+      "id": 3,
+      "name": "Lista, Pilha e Fila",
+      "color": "#9cd33b"
+    },
+    {
+      "id": 4,
+      "name": "Tabelas Hash e Algoritmos de Ordenação",
+      "color": "orange"
+    },
+    {
+      "id": 5,
+      "name": "Árvores",
+      "color": "red"
+    },
+    {
+      "id": 6,
+      "name": "Grafos",
+      "color": "#6b5be2"
     }
-   ],
+  ],
   "videos": [
     {
       "id": 1,
       "categoriaId": 1,
-      "titulo": "SEO com React",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+      "titulo": "Oque são e para que server os algoritimos e estruturas de dados? #AED",
+      "url": "https://www.youtube.com/watch?v=O_Cc-Xzc0zM"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Estrutura de Dados - Aula 1 - Apresentação da disciplina",
+      "url": "https://www.youtube.com/watch?v=y0B-vQI6Tiw&list=PLxI8Can9yAHf8k8LrUePyj0y3lLpigGcl&index=1"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Alura: Curso de Estrutura de Dados - Aula 1",
+      "url": "https://www.youtube.com/watch?v=LAlqTb70eZ4"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Estrutura de Dados - Aula 2 - Criação de uma primeira estrutura",
+      "url": "https://www.youtube.com/watch?v=x2DwllnUZDg&list=PLxI8Can9yAHf8k8LrUePyj0y3lLpigGcl&index=2"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Estrutura de dados que os robôs irão utilizar (data structures)",
+      "url": "https://www.youtube.com/watch?v=ypC_sHGjr1g"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Programador que não sabe Algoritmo | BigO | Estrutura de Dados | Complexidade",
+      "url": "https://www.youtube.com/watch?v=l8LgRx1Lqs0"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "[ED] Aula 01 - TAD (Tipo Abstrato de Dado)",
+      "url": "https://www.youtube.com/watch?v=bryesHll0vY&list=PL8iN9FQ7_jt6H5m4Gm0H89sybzR9yaaka"
+    },
+    {
+      "id": 8,
+      "categoriaId": 1,
+      "titulo": "Estrutura de Dados e Algoritmos com Java #01: Introdução",
+      "url": "https://www.youtube.com/watch?v=N3K8PjFOhy4"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "COMPLEXIDADE de ALGORITMOS I - Noção INTUITIVA",
+      "url": "https://www.youtube.com/watch?v=KVlGx-9CuO4"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "Dica rápida de como saber a complexidade de um algoritmo",
+      "url": "https://www.youtube.com/watch?v=f--A1FK6KK4"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Big O, Omega e Theta: Entendendo Complexidade de Algoritmos",
+      "url": "https://www.youtube.com/watch?v=mpQg_Qeing0"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "[ED] Aula 99 - Análise de Algoritmos",
+      "url": "https://www.youtube.com/watch?v=iZK5WwJFIPE&list=PL8iN9FQ7_jt6buW7SBD3yzjIp8NnJYrZl"
+    },
+    {
+      "id": 13,
+      "categoriaId": 2,
+      "titulo": "Projeto e Análise de Algoritmos - Apresentação da disciplina",
+      "url": "https://www.youtube.com/watch?v=kKgWNDAYJOw&list=PLxI8Can9yAHdNN5fpKWRF8bbLG-2P-0LW"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "Estruturas de dados dinâmicas - Pilhas, Filas e Listas",
+      "url": "https://www.youtube.com/watch?v=nD5Vb34mMrc"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "Estruturas de Dados - O que são Pilhas",
+      "url": "https://www.youtube.com/watch?v=EocahNeZcn0"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "Explicando Estrutura de Dados - Pilha",
+      "url": "https://www.youtube.com/watch?v=2V91Re1czwA"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": " Fila: Definição",
+      "url": "hhttps://www.youtube.com/watch?v=aEfOzz_KXl8"
+    },
+    {
+      "id": 18,
+      "categoriaId": 3,
+      "titulo": "Listas Encadeadas - Entendendo o Conceito",
+      "url": "https://www.youtube.com/watch?v=bqwIoNiHAuQ"
+    },
+    {
+      "id": 19,
+      "categoriaId": 3,
+      "titulo": "Filas | Estruturas de Dados #8",
+      "url": "https://www.youtube.com/watch?v=tiee9D54tE0"
+    },
+    {
+      "id": 20,
+      "categoriaId": 4,
+      "titulo": "Tabelas Hash",
+      "url": "https://www.youtube.com/watch?v=M4DGQPF2Oxo"
+    },
+    {
+      "id": 21,
+      "categoriaId": 4,
+      "titulo": "Tabela Hash - Definição",
+      "url": "https://www.youtube.com/watch?v=njkANXEMHTY"
+    },
+    {
+      "id": 22,
+      "categoriaId": 4,
+      "titulo": "VISUALIZANDO ALGORITMOS DE ORDENAÇÃO!",
+      "url": "https://www.youtube.com/watch?v=rQTQF46o16k"
+    },
+    {
+      "id": 23,
+      "categoriaId": 4,
+      "titulo": "SELECTION SORT | Algoritmos #3",
+      "url": "https://www.youtube.com/watch?v=ZT_dT8yn48s&list=PL5TJqBvpXQv4l7nH-08fMfyl7aDFNW_fC"
+    },
+    {
+      "id": 24,
+      "categoriaId": 4,
+      "titulo": "BUBBLE SORT | Algoritmos #4",
+      "url": "https://www.youtube.com/watch?v=GiNPe_678Ms&list=PL5TJqBvpXQv4l7nH-08fMfyl7aDFNW_fC&index=2"
+    },
+    {
+      "id": 25,
+      "categoriaId": 4,
+      "titulo": "INSERTION SORT | Algoritmos #5",
+      "url": "https://www.youtube.com/watch?v=S5no2qT8_xg&list=PL5TJqBvpXQv4l7nH-08fMfyl7aDFNW_fC&index=3"
+    },
+    {
+      "id": 26,
+      "categoriaId": 4,
+      "titulo": "COMPLEXIDADE de Selection, Bubble, Insertion Sort | Algoritmos #6",
+      "url": "https://www.youtube.com/watch?v=v50wSxxlit0&list=PL5TJqBvpXQv4l7nH-08fMfyl7aDFNW_fC&index=4"
+    },
+    {
+      "id": 27,
+      "categoriaId": 5,
+      "titulo": "Final Fantasy 7",
+      "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+    },
+    {
+      "id": 28,
+      "categoriaId": 5,
+      "titulo": "Assassins Creed Valhalla",
+      "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+    },
+    {
+      "id": 29,
+      "categoriaId": 5,
+      "titulo": "God of War 4",
+      "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+    },
+    {
+      "id": 30,
+      "categoriaId": 5,
+      "titulo": "Resident Evil 8",
+      "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+    },
+    {
+      "id": 31,
+      "categoriaId": 5,
+      "titulo": "Pokémon Let's Go Pikachu/Eevee",
+      "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+    },
+    {
+      "id": 32,
+      "categoriaId": 6,
+      "titulo": "Como estudar melhor?",
+      "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+    },
+    {
+      "id": 33,
+      "categoriaId": 6,
+      "titulo": "Faculdade",
+      "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+    },
+    {
+      "id": 34,
+      "categoriaId": 6,
+      "titulo": "Frameworks",
+      "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+    },
+    {
+      "id": 35,
+      "categoriaId": 6,
+      "titulo": "A mágica do Aprendizado",
+      "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+    },
+    {
+      "id": 36,
+      "categoriaId": 6,
+      "titulo": "Como aprender a programar?",
+      "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
     }
   ]
 }
