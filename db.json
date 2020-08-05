@@ -192,115 +192,61 @@
       "id": 27,
       "categoriaId": 5,
       "titulo": "Final Fantasy 7",
-      "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+      "url": "https://www.youtube.com/watch?v=eiMMtyRBYCE"
     },
     {
       "id": 28,
       "categoriaId": 5,
-      "titulo": "Assassins Creed Valhalla",
+      "titulo": "Estrutura de Dados - Aula 15 - Árvores - Conceitos básicos",
       "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
     },
     {
       "id": 29,
       "categoriaId": 5,
-      "titulo": "God of War 4",
-      "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+      "titulo": "ÁRVORES na Computação I Estruturas de Dados #9",
+      "url": "https://www.youtube.com/watch?v=NpJVZtgSY4U"
     },
     {
       "id": 30,
       "categoriaId": 5,
-      "titulo": "Resident Evil 8",
-      "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+      "titulo": "Introdução Sobre Árvores Binárias",
+      "url": "https://www.youtube.com/watch?v=PgZflufXGUU"
     },
     {
       "id": 31,
       "categoriaId": 5,
-      "titulo": "Pokémon Let's Go Pikachu/Eevee",
-      "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+      "titulo": "ALTURA, profundidade e caminhos em ÁRVORES | Estruturas de dados #11",
+      "url": "https://www.youtube.com/watch?v=GleEQPKxlPg"
     },
     {
       "id": 32,
       "categoriaId": 6,
-      "titulo": "Como estudar melhor?",
-      "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+      "titulo": "SEIS GRAUS DE SEPARAÇÃO | Nerdologia",
+      "url": "https://www.youtube.com/watch?v=YMI3CrChwSk"
     },
     {
       "id": 33,
       "categoriaId": 6,
-      "titulo": "Faculdade",
-      "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+      "titulo": "Grafos 1 | Aula 06 | BixeCamp",
+      "url": "https://www.youtube.com/watch?v=qTRO41yezFs"
     },
     {
       "id": 34,
       "categoriaId": 6,
-      "titulo": "Frameworks",
-      "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+      "titulo": "Estrutura de Dados - Aula 23 - Grafos - Conceitos básicos",
+      "url": "https://www.youtube.com/watch?v=MC0u4f334mI"
     },
     {
       "id": 35,
       "categoriaId": 6,
-      "titulo": "A mágica do Aprendizado",
-      "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+      "titulo": "Me Salva! ASP08 - Algoritmo de Dijkstra - Pesquisa Operacional",
+      "url": "https://www.youtube.com/watch?v=8P6uP98un4w"
     },
     {
       "id": 36,
       "categoriaId": 6,
-      "titulo": "Como aprender a programar?",
-      "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
-    },
-    {
-      "titulo": "Video Padrão",
-      "url": "https://www.youtube.com/watch?v=FtW7MYvcy68",
-      "categoriaId": 1,
-      "id": 37
-    },
-    {
-      "titulo": "Video Padrão",
-      "url": "https://www.youtube.com/watch?v=FtW7MYvcy68",
-      "categoriaId": 1,
-      "id": 38
-    },
-    {
-      "titulo": "Video Padrão",
-      "url": "https://www.youtube.com/watch?v=FtW7MYvcy68",
-      "categoriaId": 1,
-      "id": 39
-    },
-    {
-      "titulo": "Video Padrão",
-      "url": "https://www.youtube.com/watch?v=FtW7MYvcy68",
-      "categoriaId": 1,
-      "id": 40
-    },
-    {
-      "titulo": "Video Padrão",
-      "url": "https://www.youtube.com/watch?v=FtW7MYvcy68",
-      "categoriaId": 1,
-      "id": 41
-    },
-    {
-      "titulo": "Video Padrão",
-      "url": "https://www.youtube.com/watch?v=FtW7MYvcy68",
-      "categoriaId": 1,
-      "id": 42
-    },
-    {
-      "titulo": "Video Padrão",
-      "url": "https://www.youtube.com/watch?v=FtW7MYvcy68",
-      "categoriaId": 2,
-      "id": 43
-    },
-    {
-      "titulo": "Video Padrão",
-      "url": "https://www.youtube.com/watch?v=FtW7MYvcy68",
-      "categoriaId": 2,
-      "id": 44
-    },
-    {
-      "titulo": "Video Padrão",
-      "url": "https://www.youtube.com/watch?v=FtW7MYvcy68",
-      "categoriaId": 2,
-      "id": 45
+      "titulo": "Estrutura de Dados - Aula 28 - Grafos - Algoritmo de Dijkstra",
+      "url": "https://www.youtube.com/watch?v=ovkITlgyJ2s"
     }
   ]
 }
