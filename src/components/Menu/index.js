@@ -11,16 +11,14 @@ function Menu() {
         <img className="Logo" src={Logo} alt="AluraFlix logo" />
       </Link>
 
-      <div>
-        <div>
-          <Button as={Link} className="ButtonLink" to="/cadastro/video">
-            Novo Vídeo
-          </Button>
+      <div className="buttons-container">
+        <Button as={Link} className="ButtonLink" to="/cadastro/video">
+          Novo Vídeo
+        </Button>
 
-          <Button as={Link} className="ButtonLink" to="/cadastro/categoria">
-            Nova Categoria
-          </Button>
-        </div>
+        <Button as={Link} className="ButtonLink" to="/cadastro/categoria">
+          Nova Categoria
+        </Button>
       </div>
 
     </nav>

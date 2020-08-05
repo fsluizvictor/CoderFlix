@@ -13,9 +13,9 @@ function CadastroVideo() {
   const [categorias, setCategorias] = useState([]);
   const categoryTitles = categorias.map(({ titulo }) => titulo)
   const { handleChange, values } = useForm({
-    titulo: 'Video Padrão',
-    url: 'https://www.youtube.com/watch?v=FtW7MYvcy68',
-    categoria: 'Complexidade de Algoritmos',
+    titulo: '',
+    url: '',
+    categoria: '',
   });
 
   useEffect(() => {
@@ -29,7 +29,7 @@ function CadastroVideo() {
   return (
     <PageDefault>
       <h1>
-        Página de Cadastro de Vídeo
+        Cadastro de Vídeo
       </h1>
 
       <form onSubmit={(event) => {
@@ -77,8 +77,8 @@ function CadastroVideo() {
         </Button>
       </form>
 
-      <Link to="/cadastro/categoria">
-        Cadastrar Categoria
+      <Link to="/">
+        Ir para home
       </Link>
     </PageDefault>
   );

@@ -76,7 +76,7 @@ function CadastroCategoria() {
         </Button>
       </form>
 
-      {category.length === 0 && (
+      {/* {category.length === 0 && (
         <div>
           Loading
         </div>
@@ -88,7 +88,7 @@ function CadastroCategoria() {
             {element.name}
           </li>
         ))}
-      </ul>
+      </ul> */}
 
       <Link to="/">
         Ir para home

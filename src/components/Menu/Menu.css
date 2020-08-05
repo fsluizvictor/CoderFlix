@@ -61,6 +61,12 @@
     opacity: .5;
   }
 
+  .buttons-container {
+    display: flex;
+    justify-content: center;
+    margin: 3.2rem 0;
+}
+
   @media (max-width: 800px) {
     a.ButtonLink {
       position: fixed;
@@ -73,14 +79,3 @@
       text-align: center;
     }
   }
-
- .a{
-    display:inline-block;
-    text-decoration:none;
-    padding:6px 4px;
-    border:1px solid #ccc;
-    font:15px arial, sans-serif;
-}
-.a:hover{
-    border-color:#aaa;
-}
