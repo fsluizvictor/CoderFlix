@@ -2,33 +2,33 @@
   "categorias": [
     {
       "id": 1,
-      "name": "Algoritmo e Estrutura de Dados",
-      "color": "#6BD1FF"
+      "titulo": "Algoritmo e Estrutura de Dados",
+      "cor": "#6BD1FF"
     },
     {
       "id": 2,
-      "name": "Complexidade de Algoritmos",
-      "color": "#00C86F"
+      "titulo": "Complexidade de Algoritmos",
+      "cor": "#00C86F"
     },
     {
       "id": 3,
-      "name": "Lista, Pilha e Fila",
-      "color": "#9cd33b"
+      "titulo": "Lista, Pilha e Fila",
+      "cor": "#9cd33b"
     },
     {
       "id": 4,
-      "name": "Tabelas Hash e Algoritmos de Ordenação",
-      "color": "orange"
+      "titulo": "Tabelas Hash e Algoritmos de Ordenação",
+      "cor": "orange"
     },
     {
       "id": 5,
-      "name": "Árvores",
-      "color": "red"
+      "titulo": "Árvores",
+      "cor": "red"
     },
     {
       "id": 6,
-      "name": "Grafos",
-      "color": "#6b5be2"
+      "titulo": "Grafos",
+      "cor": "#6b5be2"
     }
   ],
   "videos": [

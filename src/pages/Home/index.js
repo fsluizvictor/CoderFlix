@@ -14,6 +14,7 @@ function Home() {
   useEffect(() => {
     categoriaRepository.getAllWithVideos()
       .then((categoriaComVideos) => {
+        console.log(categoriaComVideos)
         setDadosIniciais(categoriaComVideos);
       })
       .catch((err) => {
@@ -22,41 +23,33 @@ function Home() {
   }, []);
 
   return (
-    <PageDefault>
-      <Menu />
+    <PageDefault paddingAll={0}>
+      {dadosIniciais.length === 0 && (<div>Loading...</div>)}
 
-      {JSON.stringify(dadosIniciais)}
+      {dadosIniciais.map((categoria, indice) => {
+        if (indice === 0) {
+          return (
+            <div key={categoria.id}>
+              <BannerMain
+                videoTitle={dadosIniciais[0].videos[0].titulo}
+                url={dadosIniciais[0].videos[0].url}
+                videoDescription={dadosIniciais[0].videos[0].description}
+              />
+              <Carousel
+                ignoreFirstVideo
+                category={dadosIniciais[0]}
+              />
+            </div>
+          );
+        }
 
-      {/* <BannerMain
-        videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
-        url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription="O que é Front-end? Trabalhando na área os termos HTML, CSS e JavaScript fazem parte da rotina das desenvolvedoras e desenvolvedores. Mas o que eles fazem, afinal? Descubra com a Vanessa!"
-      /> */}
-
-      {/* <Carousel
-        ignoreFirstVideo
-        category={dadosIniciais.categorias[0]}
-      />
-
-      <Carousel
-        category={dadosIniciais.categorias[1]}
-      />
-
-      <Carousel
-        category={dadosIniciais.categorias[2]}
-      />
-
-      <Carousel
-        category={dadosIniciais.categorias[3]}
-      />
-
-      <Carousel
-        category={dadosIniciais.categorias[4]}
-      />
-
-      <Carousel
-        category={dadosIniciais.categorias[5]}
-      /> */}
+        return (
+          <Carousel
+            key={categoria.id}
+            category={categoria}
+          />
+        );
+      })}
 
     </PageDefault>
   );
