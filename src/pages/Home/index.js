@@ -1,25 +1,21 @@
 import React, { useEffect, useState } from 'react';
-import Menu from '../../components/Menu';
-//import dadosIniciais from '../../data/dados_iniciais.json';
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
-import Footer from '../../components/Footer';
 import categoriaRepository from '../../repositories/categorias';
 import PageDefault from '../../components/PageDefault';
 
 function Home() {
-
-  const [dadosIniciais, setDadosIniciais] = useState([])
+  const [dadosIniciais, setDadosIniciais] = useState([]);
 
   useEffect(() => {
     categoriaRepository.getAllWithVideos()
       .then((categoriaComVideos) => {
-        console.log(categoriaComVideos)
+        console.log(categoriaComVideos);
         setDadosIniciais(categoriaComVideos);
       })
       .catch((err) => {
-        console.log(err.message)
-      })
+        console.log(err.message);
+      });
   }, []);
 
   return (
@@ -31,9 +27,9 @@ function Home() {
           return (
             <div key={categoria.id}>
               <BannerMain
-                videoTitle={dadosIniciais[0].videos[0].titulo}
+                // videoTitle={dadosIniciais[0].videos[0].titulo}
                 url={dadosIniciais[0].videos[0].url}
-                videoDescription={dadosIniciais[0].videos[0].description}
+              // videoDescription={dadosIniciais[0].videos[0].description}
               />
               <Carousel
                 ignoreFirstVideo
