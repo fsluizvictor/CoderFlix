@@ -1,8 +1,8 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import Logo from '../../assets/logo.png';
 import './Menu.css';
-import Button from '../Button'
+import Button from '../Button';
 
 function Menu() {
   return (
@@ -11,9 +11,17 @@ function Menu() {
         <img className="Logo" src={Logo} alt="AluraFlix logo" />
       </Link>
 
-      <Button as={Link} className="ButtonLink" to="/cadastro/video">
-        Novo Vídeo
-      </Button>
+      <div>
+        <div>
+          <Button as={Link} className="ButtonLink" to="/cadastro/video">
+            Novo Vídeo
+          </Button>
+
+          <Button as={Link} className="ButtonLink" to="/cadastro/categoria">
+            Nova Categoria
+          </Button>
+        </div>
+      </div>
 
     </nav>
   );
